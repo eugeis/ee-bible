@@ -1,0 +1,11 @@
+<h1>Bücher der Bibel</h1>
+<div *ngFor="let book of books">
+	<div class="book {{ book.group }}">
+		<div class="year">{{ book.year }}</div>
+		<div class="num">{{ book.num }}</div>
+		<div class="chapters">{{ book.chapters }}</div>
+		<div class="verses">{{ book.verses }}</div>
+		<div class="abbreviation">{{ book.abbr }}</div>
+		<div class="author">{{ book.author }}</div>
+	</div>
+</div>
