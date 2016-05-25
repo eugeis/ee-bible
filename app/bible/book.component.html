@@ -1,10 +1,13 @@
-<div *ngIf="book" class="{{ book.group }} book">
-	<div class="year">{{ book.yearTo ? book.year + '-' + book.yearTo : book.year }}</div>
-	<div class="chapters">{{ book.chapters }}</div>
-	<div class="verses">{{ book.verses }}</div>
-	<div class="abbreviation">{{ book.abbr }}
-		<div class="num">{{ book.num }}</div>
+<div *ngIf="book" class="{{ book.group }} box">
+	<div class="keyword">{{ book.keyword }}</div>
+	<div class="book">
+		<div class="year">{{ book.yearTo ? book.year + '-' + book.yearTo : book.year }}</div>
+		<div class="chapters">{{ book.chapters }}</div>
+		<div class="verses">{{ book.verses }}</div>
+		<div class="abbreviation">{{ book.abbr }}
+			<div class="num">{{ book.num }}</div>
+		</div>
+		<div class="keyVerse">{{ book.keyVerse }}</div>
+		<div class="author">{{ book.author }}</div>
 	</div>
-	<div class="keyVerse">{{ book.keyVerse }}</div>
-	<div class="author">{{ book.author }}</div>
 </div>
