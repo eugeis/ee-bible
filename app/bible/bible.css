@@ -1,13 +1,13 @@
 .legende { border: 5px solid #333; }
 .gospel { background: #9ad3c5; }
-.history { background: #4ba5b7; }
-.paulEpistels { background: #5296eb; }
-.commonEpistels { background: #c7d0d2; }
+.history { background: #f1c6e9; }
+.paulEpistels { background: #99b6e8; }
+.commonEpistels { background: #e1f2d0; }
 .revelation { background: #eacdbf; }
 .group { position: relative; clear: both; }
 .groupLegende { 
     position: relative; width: 250px; height: 25px; color: black; 
     text-align: center; vertical-align: middle; font-weight: bold; 
-    padding: 2px; margin: 5px; float: left; 
+    padding: 2px; margin: 5px; float: left; font-size: 110%;
 }
 .separator { margin-bottom: 6px; }
